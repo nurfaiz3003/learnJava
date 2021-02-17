@@ -29,5 +29,13 @@ public class ListDemo {
         System.out.println(userAgeList);
         System.out.println(userAgeList.pollLast());
         System.out.println(userAgeList);
+
+        MyClass mc = new MyClass();
+
+        mc.methodOne(userAgeList);
+
+        ArrayList<Integer> response = mc.methodTwo();
+
+        System.out.println(response);
     }
 }
